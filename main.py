@@ -38,7 +38,7 @@ def atualizar_memoria_longo_prazo(resumo_atual, novas_mensagens):
                 {"role": "system", "content": prompt_sistema},
                 {"role": "user", "content": conteudo_usuario}
             ],
-            model="llama3-70b-8192", # Modelo otimizado da Groq para análise rápida
+            model="llama-3.3-70b-versatile", # Modelo otimizado da Groq para análise rápida
             temperature=0.2, # Baixa temperatura para manter precisão factual e técnica
             max_tokens=150
         )
