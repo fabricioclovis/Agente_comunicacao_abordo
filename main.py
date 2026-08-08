@@ -3,7 +3,6 @@ import os
 from groq import Groq
 from dotenv import load_dotenv
 
-
 load_dotenv()
 
 # 1. Verificação de Sistemas: Capturando a API Key do ambiente (Render)
